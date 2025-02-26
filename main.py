@@ -198,9 +198,10 @@ def enviar_dados_api(url, df, colunas_desejadas):
 url_relatorio_api = 'https://presence.projetodesenvolve.online/watchtime?fromCompleted=2024-02-01T03:00:00.000Z&toCompleted=2030-03-01T02:59:59.000Z&fromUpdated=2024-02-01T03:00:00.000Z&toUpdated=2030-03-01T02:59:59.000Z&ignoreStaff=true'
 
 # URLs das APIs locais
-url_tempo_por_aluno_e_curso = 'http://127.0.0.1:5000/api/tempo_por_aluno_e_curso'
-url_tempo_por_aluno = 'http://127.0.0.1:5000/api/tempo_por_aluno'
-url_progresso_por_curso = 'http://127.0.0.1:5000/api/progresso_por_curso'
+url_tempo_por_aluno_e_curso = 'https://progresso.pdinfinita.com.br/api/tempo_por_aluno_e_curso'
+url_tempo_por_aluno = 'https://progresso.pdinfinita.com.br/api/tempo_por_aluno'
+url_progresso_por_curso = 'https://progresso.pdinfinita.com.br/api/progresso_por_curso'
+
 url_api_externa = 'https://form.pdinfinita.com.br/enrolled'
 
 # Headers para a API externa
