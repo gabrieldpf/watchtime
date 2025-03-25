@@ -93,13 +93,15 @@ def calcular_progresso_por_curso(df):
         'Scratch': time_to_seconds('03:12:21'),
         'Introdução a Web': time_to_seconds('12:28:23'),
         'No Code': time_to_seconds('05:36:37'),
-        'Python': time_to_seconds('15:41:33'),
+        'Programação Básica com Python': time_to_seconds('15:41:33'),
         'JavaScript': time_to_seconds('09:32:53'),
         'Programação Orientada a Objetos': time_to_seconds('09:03:40'),
         'Programação Intermediária com Python - Python II': time_to_seconds('12:57:25'),
         'Banco de Dados': time_to_seconds('07:15:00'),
+        'Projetos I': time_to_seconds('01:40:58'),
         'Projetos II': time_to_seconds('01:40:58'),
-        'Tutorial Plataforma': time_to_seconds('01:00:00')
+        'Tutorial Plataforma': time_to_seconds('01:00:00'),
+        'Fundamentos de Interface': time_to_seconds('01:00:00')
     }
 
     df['tempo_total_segundos'] = df['tempo_total_formatado'].apply(time_to_seconds)
